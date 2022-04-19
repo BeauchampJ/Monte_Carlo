@@ -3,4 +3,4 @@
 ---
 ## Repository Contents
 - circleArea
---A program that approximates the area of a circle using a Monte Carlo Simulation 
+- - A program that approximates the area of a circle using a Monte Carlo Simulation 
