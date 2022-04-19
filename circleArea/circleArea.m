@@ -1,4 +1,5 @@
 function [area,actual,et]=circleArea(r,points)
+%Created by Jacob Beauchamp github: BeauchampJ
 %Montecarlo is a function that computes the area of a square using a
 %montecarlo simulation. This is an introduction to how randomness isn't
 %really random!
@@ -32,7 +33,7 @@ for n=1:points
 end
 hold off
 
-area=(r^2)*((inside/(points))*(r^2));
+area=4*((inside/(points))*(r^2));
 actual=(pi)*(r^2);
 et=abs((actual-area)/(actual));
 end
